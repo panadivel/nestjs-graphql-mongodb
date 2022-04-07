@@ -8,7 +8,7 @@ import { Lesson } from './lesson/lesson.entity';
   imports: [
     TypeOrmModule.forRoot({
       type: 'mongodb',
-      url: 'mongodb://localhost/school',
+      url: 'mongodb://localhost:27017/mongodb_nest',
       synchronize: true,
       useUnifiedTopology: true,
       entities: [Lesson],
